@@ -1,0 +1,70 @@
+-------------
+python main.py -ng 10000 -np 20 -ne 2 -tm 0.1 -v -d 2
+Geração  10000
+Tempo de execução do FGA: 42.96515130996704s
+([ -5.0 -5.0 ], -78.332296267407)
+-------------
+python main.py -ng 10000 -np 20 -ne 2 -tm 0.2 -v -d 2
+Geração  10000
+Tempo de execução do FGA: 42.91898846626282s
+([ -5.0 5.0 ], -78.33227723165695)
+-------------
+python main.py -ng 10000 -np 20 -ne 2 -tm 0.3 -v -d 2
+Geração  10000
+Tempo de execução do FGA: 42.74353289604187s
+([ -5.0 5.0 ], -78.33231507079476)
+-------------
+python main.py -ng 10000 -np 20 -ne 2 -tm 0.4 -v -d 2
+Geração  10000
+Tempo de execução do FGA: 42.720468282699585s
+([ -5.0 -5.0 ], -78.3322367843585)
+-------------
+python main.py -ng 10000 -np 20 -ne 2 -tm 0.5 -v -d 2
+Geração  10000
+Tempo de execução do FGA: 42.589669704437256s
+([ -5.0 -5.0 ], -78.33231279201695)
+-------------
+python main.py -ng 10000 -np 20 -ne 1 -tm 0.1 -v -d 2
+Geração  10000
+Tempo de execução do FGA: 44.03115725517273s
+([ -5.0 -5.0 ], -78.33135997561519)
+-------------
+python main.py -ng 10000 -np 20 -ne 2 -tm 0.1 -v -d 2
+Geração  10000
+Tempo de execução do FGA: 42.71954798698425s
+([ 5.0 1.2941937 ], -78.33225967207349)
+-------------
+python main.py -ng 10000 -np 20 -ne 3 -tm 0.1 -v -d 2
+Geração  10000
+Tempo de execução do FGA: 41.75305676460266s
+([ -5.0 -5.0 ], -78.33232608450325)
+-------------
+python main.py -ng 10000 -np 20 -ne 4 -tm 0.1 -v -d 2
+Geração  10000
+Tempo de execução do FGA: 41.54400849342346s
+([ -5.0 5.0 ], -78.33209714520706)
+-------------
+python main.py -ng 10000 -np 20 -ne 5 -tm 0.1 -v -d 2
+Geração  10000
+Tempo de execução do FGA: 40.51163864135742s
+([ -5.0 -5.0 ], -78.33158359108924)
+-------------
+python main.py -ng 10000 -np 20 -ne 2 -tm 0.1 -v -d 2
+Geração  10000
+Tempo de execução do FGA: 42.15368127822876s
+([ -2.9981084 -4.693602 ], -78.33203729691056)
+-------------
+python main.py -ng 10000 -np 40 -ne 2 -tm 0.1 -v -d 2
+Geração  10000
+Tempo de execução do FGA: 100.27976083755493s
+([ -5.0 -5.0 ], -78.33230598399317)
+-------------
+python main.py -ng 10000 -np 60 -ne 2 -tm 0.1 -v -d 2
+Geração  10000
+Tempo de execução do FGA: 175.30548310279846s
+([ -5.0 -5.0 ], -78.33232905769509)
+-------------
+python main.py -ng 50000 -np 20 -ne 2 -tm 0.1 -v -d 2
+Geração  50000
+Tempo de execução do FGA: 214.4218237400055s
+([ -5.0 -5.0 ], -78.33233094960681)
