@@ -9,7 +9,9 @@ A função **Styblinski-Tang**[1] é uma função de benchmark para algoritmos d
   <sub><sup>Fonte: autor.</sub></sup>
 </p>
 
-O software desse repositório, utiliza um Full Genetic Algorithm para tentar encontrar esse mínimo global.
+O software deste repositório foi um trabalho da disciplina de inteligência artificial do curso de Engenharia de Computação no CEFET-MG. Este utiliza um Full Genetic Algorithm para tentar encontrar o mínimo global da função antes citada. 
+
+
 
 ## Instalando dependências
 
