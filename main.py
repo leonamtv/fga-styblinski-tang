@@ -16,6 +16,7 @@ print_result = True
 execLong = False
 intervalo = 50
 taxa_mutacao = 0.2
+blx = False
 
 # Criando interface de argumentos
 parser.add_argument('-h', '--help', action='help', default=argparse.SUPPRESS, help='Mostra essa mensagem e sai.')
@@ -27,6 +28,7 @@ parser.add_argument('-el', '--execlong', action='store_true', help='Execução l
 parser.add_argument('-i', '--intervalo', action='store', nargs=1, help='Intervalo de impressão.')
 parser.add_argument('-v', '--verbose', action='store_true', help='Se passado, omite o número e o melhor indivíduo de cada geração assim como sua avaliação')
 parser.add_argument('-tm', '--taxa-mutacao', action='store', nargs=1, help='Taxa de mutação dos indivíduos')
+parser.add_argument('-blx', '--blx-alpha', action='store_true', help='Para utilizar o crossover por blx-alpha (o padrão é o crossover aritmético)')
 
 args = parser.parse_args()
 
@@ -46,17 +48,20 @@ if args.intervalo :
     intervalo = int(args.intervalo[0])
 if args.taxa_mutacao :
     taxa_mutacao = float(args.taxa_mutacao[0])
+if args.blx_alpha :
+    blx = True
 
 target = -39.16599 * dimension
 
 t_inicial = time.time()
+
 teste = FGA.executar ( nPop=num_pop,
                nGeracoes=num_ger,
                nElite=num_elite,
                indFactory=IndStyblinskiTangFactory(
                     dimension, 
                     taxaMutacao=taxa_mutacao,
-                    tipoRecomb=TipoRecombinacao.BLX_ALPHA
+                    tipoRecomb=TipoRecombinacao.CROSSOVER_ARITMETICO if not blx else TipoRecombinacao.BLX_ALPHA
                 ),
                verbose=verbose,
                printResult=print_result,
