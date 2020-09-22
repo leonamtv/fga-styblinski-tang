@@ -2,11 +2,12 @@
 
 A função **Styblinski-Tang**[1] é uma função de benchmark para algoritmos de otimização. Seu mínimo global é conhecido [1], e dado por `-39.16599d`, onde `d` é dimensão de entrada.
 
-<div style="text-align:center">
-  <img width=500 src='./img/st.svg'>
-
+<p align="center">
+  <img width=500 src='./img/st.svg' alt='Função Styblinski-Tang'>
+</p>
+<p align="center">
   <sub><sup>Fonte: autor.</sub></sup>
-</div>
+</p>
 
 O software desse repositório, utiliza um Full Genetic Algorithm para tentar encontrar esse mínimo global.
 
