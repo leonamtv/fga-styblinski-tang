@@ -3,8 +3,8 @@
 A função **Styblinski-Tang**[1] é uma função de benchmark para algoritmos de otimização. Seu mínimo global é conhecido [1], e dado por `-39.16599d`, onde `d` é dimensão de entrada.
 
 <div style="text-align:center">
-  <img width=400 src='./img/st.svg'>
-  
+  <img width=500 src='./img/st.svg'>
+
   <sub><sup>Fonte: autor.</sub></sup>
 </div>
 
